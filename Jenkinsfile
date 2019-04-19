@@ -3,7 +3,7 @@ pipeline {
          label "master"
     }
      tools {
-        maven 'apache-maven-3.3.3'
+        maven 'apache-maven'
     }
     stages {
         stage ('Compile Stage') {
